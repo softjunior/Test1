@@ -1,0 +1,57 @@
+.form-content{
+    display: flex;
+    flex-direction: column;
+}
+input[type=text]{
+    width: 15rem;
+    margin-right: 2rem;
+}
+.input-name{
+    display: flex;
+    flex-direction: row;
+    width: 15rem;
+}
+
+.input-password{
+    display:flex;
+    flex-direction: column;
+    width: 33rem;
+}
+
+.form-all,.form-all-1{
+    display:flex;
+    flex-direction: row;
+    width: 15rem;
+    margin-top: 1rem;
+}
+.button-content{
+    display:flex;
+    flex-direction: column;
+    width: 33rem;
+    margin-top: 2rem;
+}
+label{
+    margin-top: 3%;
+}
+
+@media screen and (max-width: 808px){
+    .button-content{
+        width: 22.5rem; 
+    }
+    input{
+        width: 22.5rem;
+    }
+    input[type=text]{
+        width: 10rem;
+    }
+    input[type=password]{
+        width: 22.5rem;
+    }
+    .form-all,.form-all-1{
+        width: 0.5rem;
+    }
+}
+
+@media screen and (max-height: 521px){
+    
+}
